@@ -73,7 +73,7 @@ const AdmissionForm = () => {
     try {
       
       console.log(formData);
-      const response = await fetch('http://localhost:5000/api/admission', {
+      const response = await fetch('https://flexmoney-asiignment-backend.onrender.com/api/admission', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
