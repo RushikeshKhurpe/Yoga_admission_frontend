@@ -15,22 +15,26 @@ This is a React component for an admission form with payment processing. It prov
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/yourusername/your-repo.git
+      ```bash
+      git clone https://github.com/yourusername/your-repo.git
 
 2. Navigate to the project directory:
   
-  ```bash
-  cd your-repo
+     ```bash
+     cd your-repo
+
 
 3.Install dependencies:
 
-  ```bash
-  npm install
+     ```bash
+     npm install
 
 4.Running the Application
-  ```bash
-  npm start
+  
+     ```bash
+     npm start
+
+
 
 ###Components
 1.AdmissionForm.js: The main React component that renders the admission form and handles form submission.
