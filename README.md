@@ -37,11 +37,13 @@ This is a React component for an admission form with payment processing. It prov
 
 
 ###Components
+
 1.AdmissionForm.js: The main React component that renders the admission form and handles form submission.
 2.AdmissionForm.css: Styling for the admission form.
 3.Images: Folder containing various illustration images used in the form.
 
 ###Dependencies
+
 React: A JavaScript library for building user interfaces.
 react-modal: A modal component for React.
 CSS for styling.
