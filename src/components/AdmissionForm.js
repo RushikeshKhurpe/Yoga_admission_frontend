@@ -1,7 +1,6 @@
-// src/components/AdmissionForm.js
 import React, { useState } from 'react';
 import Modal from 'react-modal';
-import './AdmissionForm.css'; // Import your CSS file
+import './AdmissionForm.css';
 import image1 from '../Images/illustration1.jpg';
 import image2 from '../Images/illustration2.jpg';
 import image3 from '../Images/illustration.png';
@@ -96,7 +95,6 @@ const AdmissionForm = () => {
 
 
     try {
-      // Simulate asynchronous form submission
       setShowPaymentModal(true);
       setSubmissionStatus({ type: 'success', message: 'Admission successful!' });
     } catch (error) {
@@ -163,7 +161,8 @@ const AdmissionForm = () => {
         <img src={image2} alt="Image 2" />
         <img src={image9} alt="Image 2" />
       </div>
-      <div className="form-column">
+      <div className="form-column">\
+      <h1 className="form-heading">Yoga Admission Form</h1>
         <form onSubmit={handleSubmit}>
           <div className="image-gallery">
             <img src={image} alt="Image" />

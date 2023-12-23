@@ -3,14 +3,14 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin: 5%;
+  margin: 0%;
   font-family: 'Open Sans', sans-serif;
 }
 
 form {
-  max-width: 360px; /* Adjusted max-width */
+  max-width: 360px;
   margin: auto;
-  padding: 25px; /* Adjusted padding */
+  padding: 25px;
   border: 1px solid #ddd;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -20,7 +20,19 @@ form {
   align-items: center;
 }
 
-/* Remove the label width to make it full-width */
+.form-heading {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #0d0d0d;
+  background: linear-gradient(to right, #c47c18, #c8e10d);
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
 label {
   display: block;
   margin-bottom: 8px;
@@ -29,9 +41,9 @@ label {
 
 input,
 select {
-  width: calc(100% - 20px); /* Adjusted width and margin */
+  width: calc(100% - 20px);
   padding: 10px;
-  margin-bottom: 12px; /* Adjusted margin */
+  margin-bottom: 12px;
   box-sizing: border-box;
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -88,7 +100,7 @@ button:hover {
   background-color: white;
   padding: 20px;
   border-radius: 8px;
-  max-width: 360px; /* Adjusted max-width */
+  max-width: 360px;
   text-align: center;
 }
 
@@ -99,7 +111,7 @@ button:hover {
 .image-container {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 10px; /* Adjusted margin */
+  margin-bottom: 10px;
 }
 
 .form-image {
@@ -110,16 +122,16 @@ button:hover {
 .image-gallery {
   display: flex;
   justify-content: space-between;
-  margin-top: 10px; /* Adjusted margin */
+  margin-top: 10px; 
 }
 
 .image-gallery img {
-  width: 220px; /* Adjusted width */
+  width: 220px;
   height: auto;
 }
 
 .image-gap {
-  width: 10px; /* Adjusted width */
+  width: 10px;
   height: auto;
   display: inline-block;
 }
@@ -128,7 +140,7 @@ button:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 0 10px; /* Further reduced side padding */
+  padding: 0 10px;
 }
 
 .image-column,
@@ -138,11 +150,11 @@ button:hover {
 }
 
 .image-column img {
-  width: 250px; /* Adjusted width */
+  width: 250px;
   height: auto;
-  margin-bottom: 5px; /* Adjusted margin */
+  margin-bottom: 5px;
 }
 
 .form-column {
-  margin: 0 5px; /* Adjusted margin */
+  margin: 0 5px;
 }
